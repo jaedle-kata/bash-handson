@@ -1,0 +1,6 @@
+[2022-03-28 15:02:10] User logged in
+[2022-03-28 15:03:05] Page loaded successfully
+[2022-03-28 15:03:15] User clicked on "Add to cart" button
+[2022-03-28 15:04:20] User filled out checkout form
+[2022-03-28 15:05:00] Order confirmation page loaded
+[2022-03-28 15:05:05] User logged out
