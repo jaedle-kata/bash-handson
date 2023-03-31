@@ -47,6 +47,8 @@ Make yourself familiar with shell, common commands and basic scripting.
 ### Videos
 
 - [60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w)
+- [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
+- [Shell Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=hwrnmQumtPw)
  
 ### References
 
@@ -88,7 +90,58 @@ Make yourself familiar with shell, common commands and basic scripting.
 24. Use `touch` to create a new file called `new.txt`.
 25. Use `cp` to copy `new.txt` to `copy.txt`.
 
-## Videos
+### Scripting
 
-- [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
-- [Shell Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=hwrnmQumtPw)
+#### Task
+
+Generate a script that displays information about a customer.
+
+```sh
+./show-customer.sh 'customer@example.tld` inputs/customer/customer.csv inputs/customer/order.csv
+```
+
+#### Inputs
+
+- customer email address (i.e. `customer@example.tld`)
+- customer database
+- order history
+
+#### Expected output:
+
+```txt
+Id: 123
+Customer: John Doe
+Email: customer@example.tld
+Orders: 2
+Total Order Value: 123.45
+```
+
+#### Customer Database
+
+```csv
+customer_id,email,name
+123,john.doe@example.td,John Doe
+```
+
+
+#### Order History
+
+```csv
+order_id,customer_id,amount
+567,123,100.00
+789,321,123.45
+1001,123,23.45
+```
+
+#### Hints
+
+- find the customer_id for a customer by email-address. You can assume that the email address is unique within the file
+- find all orders for a customer by customer_id
+- sum up the order amounts
+
+#### Edge-cases
+
+1. show an error if customer email address is not found in the customer database
+2. fail if any input file does not exist
+3. fail if the script is not called with the correct number of arguments 
+
