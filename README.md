@@ -35,6 +35,7 @@ Make yourself familiar with shell, common commands and basic scripting.
 - `sed`
 - `sort`
 - `tail`
+- `tee`
 - `tr`
 - `uniq`
 - `wc`
@@ -47,10 +48,15 @@ Make yourself familiar with shell, common commands and basic scripting.
 
 - [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
 - [Shell Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=hwrnmQumtPw)
-
+- [60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w)
+- 
 ### References
 
 - [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
+
+### Tools
+
+- [tldr](https://tldr.sh/): shows information about commands, may be installed by using `brew install tldr`
 
 ## Tasks
 
