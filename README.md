@@ -109,11 +109,11 @@ Generate a script that displays information about a customer.
 #### Expected output:
 
 ```txt
-Id: 123
-Customer: John Doe
-Email: customer@example.tld
-Orders: 2
-Total Order Value: 123.45
+Id: 3
+Customer: Alice Smith
+Email: alice.smith@example.com
+Order: 18
+Total Order Value: 392.5
 ```
 
 #### Customer Database
