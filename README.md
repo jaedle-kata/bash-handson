@@ -76,3 +76,7 @@ Make yourself familiar with shell, common commands and basic scripting.
 14. Use `diff` to compare two files, `fruits.txt` and `fruits_updated.txt`.
 15. Use `curl` to download `https://raw.githubusercontent.com/jaedle-kata/java11-junit5-template/main/README.md`.
 16. Use `wget` to download `https://raw.githubusercontent.com/jaedle-kata/java11-junit5-template/main/README.md`.
+17. Use `tr` to remove all spaces and tabs from a file called `sentence.txt`.
+18. Use `sort` and `uniq` to count the number of visits to each city in `cities.txt`.
+19. Use `head` to display the first line of each file with a `.txt` extension in the directory `19`.
+20. Use `find` to locate all files that are larger than 1 MB in the directory `20`. Please do not rely on the filename.
