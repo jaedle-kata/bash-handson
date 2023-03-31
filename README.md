@@ -46,10 +46,8 @@ Make yourself familiar with shell, common commands and basic scripting.
 
 ### Videos
 
-- [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
-- [Shell Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=hwrnmQumtPw)
 - [60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w)
-- 
+ 
 ### References
 
 - [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
@@ -59,6 +57,11 @@ Make yourself familiar with shell, common commands and basic scripting.
 - [tldr](https://tldr.sh/): shows information about commands, may be installed by using `brew install tldr`
 
 ## Tasks
+
+- You will find the input files required for that hands-on in the `inputs/` director prefixed with the task number.
+- Please document your solutions in a file named `SOLUTION.md`.
+
+### Getting started
 
 1. Use `echo` to print "Hello, world!" to the console.
 2. Use `grep` to search for the word "banana" in a file called `fruits.txt`.
@@ -80,3 +83,8 @@ Make yourself familiar with shell, common commands and basic scripting.
 18. Use `sort` and `uniq` to count the number of visits to each city in `cities.txt`.
 19. Use `head` to display the first line of each file with a `.txt` extension in the directory `19`.
 20. Use `find` to locate all files that are larger than 1 MB in the directory `20`. Please do not rely on the filename.
+
+## Videos
+
+- [Shell Scripting Crash Course - Beginner Level](https://www.youtube.com/watch?v=v-F3YLd6oMw)
+- [Shell Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=hwrnmQumtPw)
