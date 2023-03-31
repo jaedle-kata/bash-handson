@@ -51,10 +51,9 @@ Make yourself familiar with shell, common commands and basic scripting.
 ### References
 
 - [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
-
-### Tools
-
+- [manpage](https://ss64.com/osx/)
 - [tldr](https://tldr.sh/): shows information about commands, may be installed by using `brew install tldr`
+- [bash beginners guide](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)
 
 ## Tasks
 
@@ -83,6 +82,11 @@ Make yourself familiar with shell, common commands and basic scripting.
 18. Use `sort` and `uniq` to count the number of visits to each city in `cities.txt`.
 19. Use `head` to display the first line of each file with a `.txt` extension in the directory `19`.
 20. Use `find` to locate all files that are larger than 1 MB in the directory `20`. Please do not rely on the filename.
+21. Use `pwd` to print the current directory.
+22. Use `mkdir` to create a new directory called `newdir`.
+23. Use `cd` to change the current directory to `newdir`.
+24. Use `touch` to create a new file called `new.txt`.
+25. Use `cp` to copy `new.txt` to `copy.txt`.
 
 ## Videos
 
